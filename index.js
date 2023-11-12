@@ -8,11 +8,11 @@ $('img')[1].setAttribute("src", randomImageSource2);
 
 
 if (randomNumber1 > randomNumber2) {
-    $('h1').innerHTML = "🚩Player 1 Wins";
+    $('h1').text("🚩Player 1 Wins")
 }
 else if (randomNumber2 > randomNumber1) {
-    $('h1').innerHTML = "Player 2 Wins🚩"
+    $('h1').text("Player 2 Wins🚩")
 }
 else {
-  $('h1').innerHTML = "Draw!"
+  $('h1').text("Draw!")
 }
